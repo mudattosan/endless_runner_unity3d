@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1808142621947596013
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1808142621947596019}
+  - component: {fileID: 1808142621947596018}
+  m_Layer: 0
+  m_Name: ShopManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1808142621947596019
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1808142621947596013}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -28.740528, y: 9.813201, z: -0.64953625}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1808142621947596018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1808142621947596013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8260785674a5494c8328378c034742e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skills:
+  - price: 0
+    VFXImage: {fileID: 21300000, guid: 37b5e96e130ddc3409762a11040aec22, type: 3}
+    SkillPb: {fileID: 1961964258596952, guid: 5727f3393f270a34ca8464323e8247f3, type: 3}
+  - price: 100
+    VFXImage: {fileID: 21300000, guid: a89d85c7864b82f4194937dfb714b3c8, type: 3}
+    SkillPb: {fileID: 1961964258596952, guid: a2fb511e835b5114a9292745d76b1d80, type: 3}
+  - price: 200
+    VFXImage: {fileID: 21300000, guid: 62c024d4ea6575e478d2d6eb13bb7f90, type: 3}
+    SkillPb: {fileID: 1031169369869700, guid: a7ae7e4cb3e44134ca8506910a20434d, type: 3}
+  - price: 300
+    VFXImage: {fileID: 21300000, guid: 1b603ef7888ed0a4882f291eec618759, type: 3}
+    SkillPb: {fileID: 1170480630469472, guid: b348c70b70beb3849acc7a74e175bd99, type: 3}
+  - price: 400
+    VFXImage: {fileID: 21300000, guid: 5c8181acad2bf0842ab65de3ec583156, type: 3}
+    SkillPb: {fileID: 1631443462818890, guid: e5863cf182b672e469044305d06f6a53, type: 3}
+  - price: 500
+    VFXImage: {fileID: 21300000, guid: d4a397fdaa1cba746bce6b161b531ea6, type: 3}
+    SkillPb: {fileID: 1086672771459954, guid: 532b05582acdc5e42a3b3c11d9f74dae, type: 3}
