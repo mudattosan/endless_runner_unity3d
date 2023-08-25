@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class DemoMenuFunction : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public GameObject guidePanel;
     void Start()
     {
         
@@ -27,5 +27,13 @@ public class DemoMenuFunction : MonoBehaviour
     public void QuitGame()
     {
         Application.Quit();
+    }
+    public void OpenGamePanel()
+    {
+        guidePanel.SetActive(true);
+    }
+    public void CloseGamePanel()
+    {
+        guidePanel.SetActive(false);
     }
 }

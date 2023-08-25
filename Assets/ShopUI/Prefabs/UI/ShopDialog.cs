@@ -7,6 +7,7 @@ public class ShopDialog : Dialog
 {
     public Transform gridRoot;
     public ShopSkillUI skillUIPb;
+    public GameObject alertPanel;
 
     public override void Show(bool isShow)
     {
@@ -79,6 +80,7 @@ public class ShopDialog : Dialog
             } else
             {
                 Debug.Log("You don't have enough coins!");
+                AlertNoEnoughCoin();
             }
         }
     }
@@ -97,6 +99,14 @@ public class ShopDialog : Dialog
     public void BackToMenu()
     {
         SceneManager.LoadScene(0);
+    }
+    public void AlertNoEnoughCoin()
+    {
+        alertPanel.SetActive(true);
+    }
+    public void CloseAlert()
+    {
+        alertPanel.SetActive(false);
     }
 
 }
